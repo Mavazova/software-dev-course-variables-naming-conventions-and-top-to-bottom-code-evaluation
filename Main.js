@@ -29,4 +29,17 @@ let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+//console.log(d);
+
+
+
+let shopsName = "Maftuna cafe";
+const today = new Date();
+let dateOfPurchase = today.toISOString().split('T')[0];
+let buyersName = "Alice";
+let numOfItems = 5;
+let totalAmount = 20;
+let buyersReciept = "Date: " + dateOfPurchase + " : " + buyersName + " bought " + numOfItems + " items" + ":" + "Total amount is " + totalAmount;
+
+console.log("Welcome to " + shopsName);
+console.log(buyersReciept);
